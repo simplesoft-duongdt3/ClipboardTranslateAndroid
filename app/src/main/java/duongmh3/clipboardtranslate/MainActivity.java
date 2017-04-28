@@ -28,9 +28,9 @@ public class MainActivity extends AppCompatActivity implements TabLayout.OnTabSe
         tabs = (TabLayout) findViewById(R.id.tabs);
         webViewAnhAnh = (AdvancedWebView) findViewById(R.id.webViewAnhAnh);
         webViewVietAnh = (AdvancedWebView) findViewById(R.id.webViewVietAnh);
-        TabLayout.Tab tab1 = tabs.newTab().setText("English-English");
+        TabLayout.Tab tab1 = tabs.newTab().setText("English-Vietnamese");
         tabs.addTab(tab1, true);
-        TabLayout.Tab tab2 = tabs.newTab().setText("English-Vietnamese");
+        TabLayout.Tab tab2 = tabs.newTab().setText("English-English");
         tabs.addTab(tab2, false);
 
         tabs.addOnTabSelectedListener(this);
